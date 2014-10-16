@@ -1,0 +1,16 @@
+<Combine fileversion="1.0" name="alumno" description="">
+  <StartMode startupentry="alumno" single="True">
+    <Execute entry="alumno" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\alumno.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="alumno" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="alumno" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>
